@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Ride</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="text-center" style="padding-top: 30px;">Book Your Ride</h3>
+        <form id="rideBookingForm" class="row justify-content-center" style="margin-top: 50px;">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="destination">Select Destination:</label>
+                    <input type="text" class="form-control" id="destination" name="destination" required>
+                </div>
+                <div class="form-group">
+                    <label for="startDate">Select Start Date:</label>
+                    <input type="date" class="form-control" id="startDate" name="startDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="endDate">Select End Date:</label>
+                    <input type="date" class="form-control" id="endDate" name="endDate" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="book.js"></script>
+</body>
+</html>

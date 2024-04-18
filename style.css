@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#collapsibleNavbar .navbar-nav {
+    margin-right: 0px; 
+    margin-left: -127px; 
+}
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-info {
+    text-align: left;
+}
+.contact-info p {
+    margin: 0;
+}
+
+.logo {
+    flex-grow: 0;
+    text-align: left;
+    width: 50%;
+    margin-left: -100px;
+}
+.social-link {
+    margin-right: -100px; 
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link {
+    margin-left: 20px;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width:20px;
+    }
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size:20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width:20px;
+    }
+}
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: green ; 
+}
+.content{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: black;
+    padding: 10px;
+}
+.content p{
+    font-size: 22px;
+}
+.content h1{
+    font-size: 50px;
+}
+#btn1 button{
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: darkblue;
+    color: white;
+}
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 30px;
+    }
+}
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: rgb(101, 245, 101);
+}
+#btn3 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#btn3 button:hover{
+    background-color: rgb(101, 245, 101);
+}
+#tpc{
+    box-shadow: 0 0 Spx black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+#btn4{
+    text-align: center;
+}
+#a p{
+    font-weight: bold;
+}
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 3px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#btn4 button:hover{
+    background-color: rgb(101, 245, 101);
+}
+#a{
+    box-shadow: 0 0 Spx black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#a:hover{
+    transform: translateY(-10px);
+}
+@media screen and (max-width:895px){
+    #btn4 button{
+        width: 100px;
+    }
+}
+.about-image {
+    width: auto;
+    height: auto;
+    border: none;
+}
+.about-content {
+    margin-bottom: 20px;
+}

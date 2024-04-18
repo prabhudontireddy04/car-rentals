@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="text-center" style="padding-top: 30px;">Contact Us</h3>
+        <form id="contactForm" class="row justify-content-center" style="margin-top: 50px;">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="issueSelect">Select Issue:</label>
+                    <select class="form-control" id="issueSelect" name="issueSelect">
+                        <option value="booking">Issue regarding booking</option>
+                        <option value="payment">Issue regarding payment</option>
+                        <option value="cancellation">Issue regarding cancellation</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group" id="otherIssue" style="display: none;">
+                    <label for="otherIssueInput">Describe your problem:</label>
+                    <textarea class="form-control" id="otherIssueInput" name="otherIssueInput" placeholder="Enter your issue"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email:</label>
+                    <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phoneInput">Mobile Number:</label>
+                    <input type="tel" class="form-control" id="phoneInput" name="phoneInput" placeholder="Enter your mobile number">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

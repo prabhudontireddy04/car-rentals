@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loginform">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="name" name="username" placeholder="Username"><br>
+                <input type="password" id="pass" name="password" placeholder="Password"><br>
+                <button type="submit">Login</button>
+            </form>
+            <p id="nameError" class="error"></p>
+            <p id="passwordError" class="error"></p>
+            <p>Don't have an account? <a href="#" id="showRegisterLink">Register</a></p>
+        </div>
+
+        <div class="valid1" style="display: none;">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" id="name1" name="username" placeholder="Username"><br>
+                <input type="password" id="pass1" name="password" placeholder="Password"><br>
+                <input type="password" id="confirm" name="confirm_password" placeholder="Confirm Password"><br>
+                <button type="submit">Register</button>
+            </form>
+            <p id="nameError1" class="error"></p>
+            <p id="passwordError1" class="error"></p>
+            <p id="confirmPasswordError" class="error"></p>
+            <p>Already have an account? <a href="#" id="showLoginLink">Login</a></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
